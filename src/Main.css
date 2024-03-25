@@ -1,0 +1,324 @@
+body{
+    margin: auto;
+}
+
+.box1{
+  text-align: center;
+  margin: auto;
+  
+}
+
+.App-logo {
+    height: 30vmin;
+    pointer-events: none;
+    margin-top: 200px;
+  }
+  .lien-home{
+    margin-top: 50px;
+  }
+  .lien-home a{
+    color: Blue;
+    font-size: 30pt;
+    font-weight: bold;
+  }
+  /* @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+
+/* -----------------Form1------------------ */
+.login-form{
+  color: #274079;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  min-height: 450px;
+  width: 750px;
+  background-color: #ffff;border-radius: 10px;
+  box-shadow: 0px 3px 5px #274079,
+              0px 3px 5px #274079;
+}
+.login-form h1{
+  font-size: 30pt;
+  font-weight: bold;
+  
+}
+.container-form1{
+  width: 370px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.container-form1 input{
+  margin-bottom: 20px;
+  width: 280px;
+  height: 40px;
+  border: none;
+  background-color: #a9d9ed;
+  
+}
+.container-form2 input{
+  width: 260px;
+  height: 40px;
+  border: none;
+  background-color:#a9d9ed;
+}
+.container-form2{
+  /* margin-top: 100px; */
+  background-color:#a9d9ed;
+  text-align: center;
+  width: 370px;
+}
+.login-form a{
+  text-decoration: none;
+  color: #274079;
+}
+.login-form button{
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #a9d9ed;
+  border: solid 1px #274079;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12pt;
+  color: #274079;
+  cursor: pointer;
+}
+
+.login-form button:hover{
+  background-color: #274079;
+  color: #fff;
+}
+.container-form2 form{
+  margin-top: 100px;
+}
+ /* ------------------header-------------------------- */
+  input{
+    outline: none;
+  }
+  .main-header{
+    background-color:#ffff;
+    box-shadow: 0px 0px 20px #274079;
+  }
+
+  nav{
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  img{
+    width: 160px;
+    height: 130px;
+    
+  }
+  .logo3{
+    width: 150px;
+    height: 130px;
+  }
+  .img-logo{
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .deconnexion{
+    width: 200px;
+    height: 40px;
+    margin-right: 50px;
+    margin-top: 50px;
+    background-color: #d87307;
+    border: none;
+    border-radius: 10px;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 12pt;
+    cursor: pointer;
+  }
+
+  .table1-home{
+    padding: 30px 50px;
+  }
+   .sidebar{
+    display: flex;
+    justify-content:space-between ;
+   }
+   
+   
+  .lien{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  span{
+    font-size: 20pt;
+    font-weight: bold;
+    color: #274079;
+  }
+  .lien1{
+    padding:5px 20px;
+    font-size: 15pt;
+    font-weight: bold;
+    color: #d87307;
+  } 
+  .lien2{
+    padding:5px 20px;
+    font-size: 15pt;
+    font-weight: bold;
+    color: #274079;
+    text-decoration: none;
+  }
+   .btns input{
+    margin-right: 20px;
+    width: 300px;
+    height: 50px;
+    border: solid 1px #a9d9ed;
+    border-radius: 10px;
+   }
+  .ajouter{
+    width: 150px;
+    height: 50px;
+    background-color:#a9d9ed ;
+    color: #274079;
+    border: none;
+    border-radius: 10px;
+    font-size: 12pt;
+    cursor: pointer;
+  }
+
+  /* --------------Table-------------------- */
+  .table1{
+    background-color: #edeef191;
+  }
+  .content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 12pt;
+    font-weight: bold;
+    min-width: 1197px;
+    /* color:#fff; */
+  }
+  .content-table thead tr{
+    background-color: #41a1d3;
+    color: #ffff;
+    text-align: left;
+    font-size: 12pt;
+  }
+  .content-table th{
+    padding: 15px 12px;
+  }
+  .content-table td{
+    padding: 15px 20px;
+  }
+  .content-table tbody tr{
+    border-bottom: solid 1px #27407988;
+  }
+  .content-table button{
+    width: 120px;
+    height: 25px;
+    background-color: #41a1d3;
+    border: none;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: 10pt;
+    font-weight: bold;
+    margin: auto;
+    cursor: pointer;
+  }
+  .table-modif{
+    display: flex;
+    flex-direction: column;
+  }
+  .span-modif {
+    font-size: 10pt;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #274079;
+    font-size: 12pt;
+    cursor: pointer;
+  }
+  /* -------------------Sortie-------------------- */
+.lien1-sortie{
+  padding:5px 20px;
+  font-size: 15pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: #274079;
+}
+.lien2-sortie{
+  padding:5px 20px;
+  font-size: 15pt;
+  font-weight: bold;
+  color: #d87307;
+  text-decoration: underline;
+}
+
+
+
+  /* ----------------Ajout----------------- */
+  .form{
+    padding: 50px 150px;
+  }
+  .form-ref{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .form-ref div{
+    display: flex;
+    flex-direction: column;
+  
+
+  }
+  .form-ref input{
+    width: 300px;
+    height: 45px;
+    border: solid 1px #274079;
+  }
+  label{
+    color: #274079;
+    margin-bottom: 10px;
+    font-size: 15pt;
+    font-weight: lighter;
+
+  }
+  input{
+    margin-bottom: 10px;
+  }
+
+  .objet input{
+    width: 1050px;
+    height: 70px;
+    border: solid 1px #274079;
+  
+  }
+  .btn-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .btn-form button{
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #d87307;
+    color: #ffff;
+    font-size: 12pt;
+    font-weight: bold;
+  }
