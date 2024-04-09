@@ -7,4 +7,4 @@ const Lien1 = () => {
         </div>
     )
 }
-export default Lien1
+export default Lien1;

@@ -73,4 +73,4 @@ const Ajout = () => {
 
     )
 }
-export default Ajout
+export default Ajout;

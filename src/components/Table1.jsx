@@ -8,26 +8,6 @@ import logo2 from '../images/logoMpeb.png'
 
 
 const Table1 = () => {
-
-
-    // HandleDeconnexion = () => {
-        
-    // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     return (
         <div className='Table1'>
             <header className="main-header">
